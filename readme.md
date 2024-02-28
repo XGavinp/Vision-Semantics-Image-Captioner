@@ -13,3 +13,9 @@ Welcome to Our Image Caption Generator Project!
 3. **Run Main Script:**
    ```bash
    python main.py
+
+**Requirements:**
+Flask==2.0.1
+Pillow==9.0.1
+torch==1.10.0
+transformers==4.12.2
