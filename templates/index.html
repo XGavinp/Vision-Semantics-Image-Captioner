@@ -3,26 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Caption Generator</title>
+    <title>Vision Semantics Captioner</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Image Caption Generator</h1>
-    <form id="upload-form">
-        <label for="file-upload">Upload Image File:</label>
-        <input type="file" id="file-upload" name="image" accept="image/jpeg, image/png">
-        <br>
-        <label for="url-upload">Or Enter Image URL:</label>
-        <input type="url" id="url-upload" name="image_url" placeholder="Enter image URL">
-        <br>
-        <button type="submit">Generate Caption</button>
-    </form>
-    <div id="image-container" style="display: none;">
-        <h2>Uploaded Image</h2>
-        <img id="uploaded-image" src="" alt="Uploaded Image">
-        <div id="caption"></div>
-    </div>
+    <main>
+        <h1>Vision Semantics Captioner</h1>
+        <form id="upload-form">
+            <label for="file-upload">Upload Image File:</label>
+            <input type="file" id="file-upload" name="image" accept="image/jpeg, image/png">
+            <br>
+            <label for="url-upload">Or Enter Image URL:</label>
+            <input type="url" id="url-upload" name="image_url" placeholder="Enter image URL">
+            <br>
+            <button type="submit">Generate Caption</button>
+        </form>
+        <div id="image-container" style="display: none;">
+            <h2>Uploaded Image</h2>
+            <img id="uploaded-image" src="" alt="Uploaded Image">
+            <div id="caption"></div>
+        </div>
+    </main>
 
+    <footer>A Initiative By <a href="https://github.com/Devendra379" style="color:aqua;" target="_blank">Devendra</a> | <a
+        href="https://github.com/" style="color:aqua;" target="_blank">Risha</a> | <a
+        href="https://github.com/XGavinp" style="color:aqua;" target="_blank">Gavin</a></footer>
+    
     <script>
         document.getElementById('upload-form').addEventListener('submit', function(event) {
             event.preventDefault();
