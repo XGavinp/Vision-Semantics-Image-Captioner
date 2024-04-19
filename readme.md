@@ -6,7 +6,7 @@ Welcome to Our Image Caption Generator Project!
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/XGavinp/XGavinp
+   git clone https://github.com/XGavinp/Vision-Semantics-Image-Captioner-Project.git
 2. **Download Requirements:**
    ```bash
    pip install -r requirements.txt
