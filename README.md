@@ -1,4 +1,4 @@
-# My Awesome Project
+# Vision Semantics Captioner
 
 Welcome to Our Image Caption Generator Project!
 
