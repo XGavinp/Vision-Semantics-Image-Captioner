@@ -1,6 +1,6 @@
 # Vision Semantics Captioner
 
-Welcome to Our Image Caption Generator Project!
+Welcome to Our Vision Semantics Image Captioner!
 
 ## Instructions to Run the Repository:
 
