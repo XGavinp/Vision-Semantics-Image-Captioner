@@ -19,3 +19,9 @@ Flask==2.0.1
 Pillow==9.0.1
 torch==1.10.0
 transformers==4.12.2
+
+Collaborators:-
+XGavinp
+Devendra379
+
+In this project we are building a application that will take an image from the user.It will process that image and give the perfect description of that image.
