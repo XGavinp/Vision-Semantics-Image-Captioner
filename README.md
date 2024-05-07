@@ -25,3 +25,4 @@ transformers==4.12.2
 <br> [Devendra379](https://github.com/Devendra379)
 
 <br> In this project we are building a application that will take an image from the user.It will process that image and give the perfect description of that image.</br>
+<br>We have written a IEEE Conference Paper on this project and it has been published.</br>
